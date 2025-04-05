@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header style={styles.header}>
-      <h1 style={styles.logo}>🪴 Green Haven</h1>
+      <h1 style={styles.logo}>🪴 VERDANT ROOTS</h1>
       <nav style={styles.nav}>
         {location.pathname !== "/" && (
           <>
@@ -32,8 +32,9 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "10px 30px",
-    background: "#e4f5e6",
+    background: "green",
     borderBottom: "2px solid #ccc",
+    color: "white",
   },
   logo: {
     fontSize: "1.8rem",
@@ -46,7 +47,7 @@ const styles = {
   },
   link: {
     textDecoration: "none",
-    color: "#333",
+    color: "white",
     fontWeight: "bold",
   },
 };
