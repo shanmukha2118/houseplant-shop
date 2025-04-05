@@ -1,0 +1,29 @@
+.plant-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .plant-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .plant-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .plant-card h4 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #2e7d32;
+  }
+  
+  .plant-card p {
+    color: #555;
+    margin-top: 0.25rem;
+  }
+  
